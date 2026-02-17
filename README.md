@@ -39,26 +39,6 @@ Student Management System
 │
 └── README.md
 
-
----
-
-## 🧩 Database Schema
-```md
-```sql
-CREATE DATABASE student_db;
-USE student_db;
-
-CREATE TABLE students (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE,
-    course VARCHAR(100),
-    marks DOUBLE
-);
-
-
-
-
 ## ▶️ How to Run the Project
 1. Install Java (JDK 17+ recommended)
 2. Install MySQL Server and MySQL Workbench
@@ -91,3 +71,23 @@ CREATE TABLE students (
 **Siraj Mohammad**  
 GitHub: https://github.com/Sirajmohammad03
   
+
+---
+
+## 🧩 Database Schema
+```md
+```sql
+CREATE DATABASE student_db;
+USE student_db;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    course VARCHAR(100),
+    marks DOUBLE
+);
+
+
+
+
