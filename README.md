@@ -39,6 +39,8 @@ Student Management System
 │
 └── README.md
 
+---
+
 ## ▶️ How to Run the Project
 1. Install Java (JDK 17+ recommended)
 2. Install MySQL Server and MySQL Workbench
