@@ -58,16 +58,6 @@ CREATE TABLE students (
 
 
 
-⚠️ This step is very important for proper formatting on GitHub.
-
----
-
-## ✅ NEXT STEP 2: PASTE THE REMAINING README CONTENT
-
-Now **below that**, paste this 👇
-
-```md
----
 
 ## ▶️ How to Run the Project
 1. Install Java (JDK 17+ recommended)
